@@ -1,3 +1,12 @@
 body {
   font-family: sans-serif;
 }
+navigation-block {
+  background: 0 0!important;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav-item {
+
+}
