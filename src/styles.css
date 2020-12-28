@@ -1,12 +1,29 @@
 body {
   font-family: sans-serif;
 }
+header {
+  display: flex;
+}
+logo {
+  display: flex;
+  color:white;
+  font-family: josefin sans, Arial, sans-serif;
+  font-size: 22px;
+  line-height: 1;
+}
 navigation-block {
+  text-decoration: none;
   background: 0 0!important;
   display:flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid #ffffff;
+  padding: 5px;
 }
 nav-item {
-
+display: flex;
+list-style: none;
+}
+navbar {
+  display: flex;
 }
