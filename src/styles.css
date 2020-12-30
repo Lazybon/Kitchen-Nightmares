@@ -24,7 +24,6 @@
   display: flex;
   cursor: pointer;
   color:white;
-  font-family: josefin sans, Arial, sans-serif;
   font-size: 22px;
   line-height: 1;
 }
@@ -36,8 +35,25 @@ display: flex;
 letter-spacing: 2px;
 font-size: 13px;
 padding: 20px;
-list-style-type: none;
-text-decoration-line: none;
+}
+.nav-link {
+  list-style-type: none;
+  text-decoration-line: none;
+  color: #ffffff;
+}
+.nav-link-toggle {
+  display: flex;
+  list-style-type: none;
+  text-decoration-line: none;
+  color: #ffffff;
+  width: 0;
+  height: 0;
+}
+.toggle {
+  display: flex;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 8px solid #ffffff;
 }
 .icon {
   display: flex;
