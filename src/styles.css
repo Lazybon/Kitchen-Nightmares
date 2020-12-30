@@ -1,29 +1,46 @@
-body {
-  font-family: sans-serif;
+.body {
+  font-family: poppins,Arial,sans-serif;
+  margin: 0px;
 }
-header {
+.header {
   display: flex;
 }
-navigation-block {
+.navigation-block {
   text-decoration: none;
   background: #666666;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   border-bottom: 1px solid #ffffff;
   padding: 5px;
+  margin: auto;
+  width: 100%;
+  color: #ffffff;
 }
-logo {
+.logo-bar {
   display: flex;
+  flex-direction: column;
+  text-align: center;
+  display: flex;
+  cursor: pointer;
   color:white;
   font-family: josefin sans, Arial, sans-serif;
   font-size: 22px;
   line-height: 1;
 }
-navbar {
+.navbar {
   display: flex;
-  list-style-type: none;
 }
-nav-item {
+.nav-item {
 display: flex;
+letter-spacing: 2px;
+font-size: 13px;
+padding: 20px;
+list-style-type: none;
+text-decoration-line: none;
+}
+.icon {
+  display: flex;
+  height: 20px;
+  width: 20px;
 }
