@@ -1,4 +1,4 @@
-*/:root{
+:root{
   --brown: #c49b63;
   --white: #ffffff;
   --black: #000000;
@@ -9,19 +9,19 @@ h1,h2,h3,h4,h5,h6 {
 }
 p {
   cursor: text;
+  color: #6c757d;
 }
-
-
-
-
-
+a {
+  cursor: pointer;
+}
 .body {
   font-family: poppins,Arial,sans-serif;
-  margin: 0px;
+  margin: auto;
 }
 .header {
   display: flex;
   background-image: url(/src/img/bg_3.jpg);
+  background-size: 100%;
   flex-direction: column;
 }
 .navigation-block {
@@ -32,7 +32,7 @@ p {
   border-bottom: 1px solid white;
   padding: 5px;
   margin: auto;
-  width: 100%;
+  width: 1323px;
   color: white;
 }
 .logo-bar {
@@ -40,7 +40,6 @@ p {
   flex-direction: column;
   text-align: center;
   display: flex;
-  cursor: pointer;
   color:white;
   font-size: 22px;
   line-height: 1;
@@ -77,6 +76,7 @@ padding: 20px;
   display: flex;
   height: 20px;
   width: 20px;
+  padding: 10px;
 }
 .welcome-slide {
   padding: 200px;
@@ -106,4 +106,35 @@ padding: 20px;
   font-size: 13px;
   padding: 10px;
   text-align: center;
+}
+.info {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;  
+}
+.paragraph {
+  display: flex;
+  flex-direction: row;
+}
+.info-text {
+display: flex;
+flex-direction: column;
+padding: 10px;
+}
+.reserve-table {
+  background-color: var(--brown);
+}
+.filling-form{
+
+}
+.name-form {
+  display: flex;
+  flex-direction: row;
+}
+.form-group{
+  
+}
+.form-control {
+  
 }
