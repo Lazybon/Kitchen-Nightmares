@@ -1,10 +1,27 @@
+:root{
+  --brown: #c49b63;
+  --white: #ffffff;
+  --black: #000000;
+  --grey: #6c757d;
+}
+h1,h2,h3,h4,h5,h6 {
+  color: white;
+}
+p {
+  cursor: text;
+  color: #6c757d;
+}
+a {
+  cursor: pointer;
+}
 .body {
   font-family: poppins,Arial,sans-serif;
-  margin: 0px;
+  margin: auto;
 }
 .header {
   display: flex;
   background-image: url(/src/img/bg_3.jpg);
+  background-size: 100%;
   flex-direction: column;
 }
 .navigation-block {
@@ -12,18 +29,17 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid white;
   padding: 5px;
   margin: auto;
-  width: 100%;
-  color: #ffffff;
+  width: 1323px;
+  color: white;
 }
 .logo-bar {
   display: flex;
   flex-direction: column;
   text-align: center;
   display: flex;
-  cursor: pointer;
   color:white;
   font-size: 22px;
   line-height: 1;
@@ -40,13 +56,13 @@ padding: 20px;
 .nav-link {
   list-style-type: none;
   text-decoration-line: none;
-  color: #ffffff;
+  color: white;
 }
 .nav-link-toggle {
   display: flex;
   list-style-type: none;
   text-decoration-line: none;
-  color: #ffffff;
+  color: white;
   width: 0;
   height: 0;
 }
@@ -54,12 +70,13 @@ padding: 20px;
   display: flex;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
-  border-top: 8px solid #ffffff;
+  border-top: 8px solid white;
 }
 .icon {
   display: flex;
   height: 20px;
   width: 20px;
+  padding: 10px;
 }
 .welcome-slide {
   padding: 200px;
@@ -70,24 +87,54 @@ padding: 20px;
   text-align: center;
 }
 .description {
-  color: #ffffff;
   font-size: 40px;
   letter-spacing: 1px;
 }
 .subheading {
-  font-family: Georgia, 'Times New Roman', Times, serif, cursive;
+  font-family: Georgia, cursive;
   font-size: 30px;
-  color: #c49b63;
+  color: var(--brown);
 }
 .origin {
   font-size: 18px;
-  color: #ffffff;
+  color: white;
 }
 .button-welcome-slide {
-  border: 1px solid #c49b63;
-  background-color: #c49b63;
-  color: #000000;
+  border: 1px solid var(--brown);
+  background-color: var(--brown);
+  color: black;
   font-size: 13px;
   padding: 10px;
   text-align: center;
+}
+.info {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;  
+}
+.paragraph {
+  display: flex;
+  flex-direction: row;
+}
+.info-text {
+display: flex;
+flex-direction: column;
+padding: 10px;
+}
+.reserve-table {
+  background-color: var(--brown);
+}
+.filling-form{
+
+}
+.name-form {
+  display: flex;
+  flex-direction: row;
+}
+.form-group{
+  
+}
+.form-control {
+  
 }
